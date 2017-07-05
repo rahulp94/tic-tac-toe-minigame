@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <b><h1><center>TIC TAC TOE</center></h1></b>
+        <script language="javascript" type ="text/javascript" src=script2.js></script> 
+    </head>
+    
+    <body>
+        <table border = "1" align = "center">
+            <tr>
+                <td><a href = "javascript:Move('A')"><img src="#" border=0 height=100 width=100 id="A"></a></td>
+                <td><a href = "javascript:Move('B')"><img src="#" border=0 height=100 width=100 id="B"></a></td>
+                <td><a href = "javascript:Move('C')"><img src="#" border=0 height=100 width=100 id="C"></a></td>
+            </tr>
+            <tr>
+                <td><a href = "javascript:Move('D')"><img src="#" border=0 height=100 width=100 id="D"></a></td>
+                <td><a href = "javascript:Move('E')"><img src="#" border=0 height=100 width=100 id="E"></a></td>
+                <td><a href = "javascript:Move('F')"><img src="#" border=0 height=100 width=100 id="F"></a></td>
+            </tr>
+            <tr>
+                <td><a href = "javascript:Move('G')"><img src="#" border=0 height=100 width=100 id="G"></a></td>
+                <td><a href = "javascript:Move('H')"><img src="#" border=0 height=100 width=100 id="H"></a></td>
+                <td><a href = "javascript:Move('I')"><img src="#" border=0 height=100 width=100 id="I"></a></td>
+            </tr>
+        </table>
+        
+        <table align = "right">
+            <tr><td>Player 1</td><td><input type = text size=5 id="player1" value=0></td></tr>
+            <tr><td>Computer</td><td><input type = text size=5 id="comp" value=0></td></tr>
+            <tr><td>Ties</td><td><input type = text size=5 id="ties" value=0></td></tr>
+        </table>
+        <br>
+        <center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type=button value="Play Again" onClick="playAgain()">&nbsp;&nbsp;&nbsp;
+            <input type=button value="Help" onClick="help()">
+        </center>
+    </body>
+</html>
